@@ -1,0 +1,71 @@
+.topo{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F94C10;
+}
+
+.pesquisa{
+    padding-top: 17px;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pesquisa input{
+    display: flex;
+    border: black 5px solid;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+
+.pesquisa input::placeholder{
+    position: absolute;
+    left: 100px;
+    color: black;
+}
+
+.awe{
+    cursor: pointer;
+    height: 3vh;
+}
+
+.topo button{
+    width: 7%;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    border: black 5px solid;
+    border-radius: 100px;
+    background-color: #F8DE22;
+    transition: 0.5s;
+}
+
+.topo button:hover{
+    cursor: pointer;
+    background-color: #00d800;
+    transform: perspective(6.5cm);
+}
+
+@media screen and (max-width: 1280px){
+    .pesquisa input{
+        display: none;
+    }
+
+    .awe{
+        height: 5.9vh;     
+    }
+
+    .topo button{
+        width: 23%;
+    }
+}

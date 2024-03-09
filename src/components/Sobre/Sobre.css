@@ -1,0 +1,22 @@
+.sobre{
+    padding: 5em 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #000 10px solid;
+}
+
+.sobre-img{
+    width: 30em;
+    border: #000 10px solid;
+    border-radius: 100px;
+}
+
+.sobre-p{
+    padding: 0 10em;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
